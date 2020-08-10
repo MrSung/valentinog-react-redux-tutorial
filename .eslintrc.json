@@ -6,7 +6,11 @@
   },
   "extends": [
     "plugin:react/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "eslint-config-prettier"
+  ],
+  "plugins": [
+    "eslint-config-prettier"
   ],
   "parserOptions": {
     "sourceType": "module"
