@@ -9,11 +9,17 @@
     "plugin:prettier/recommended",
     "eslint-config-prettier"
   ],
+  "parser": "babel-eslint",
   "parserOptions": {
     "sourceType": "module"
   },
   "rules": {
     "prettier/prettier": "error",
     "react/prop-types": 0
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
