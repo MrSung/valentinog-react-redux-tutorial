@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
+import '@exampledev/new.css'
 import store from './redux/store'
-import './styles/index.css'
 import App from './components/app'
 
 function RootComponent() {
